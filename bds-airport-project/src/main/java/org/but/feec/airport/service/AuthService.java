@@ -13,8 +13,8 @@ public class AuthService {
         this.personRepository = personRepository;
     }
 
-    private PersonAuthView findPersonByEmail(String email) {
-        return personRepository.findPersonByEmail(email);
+    private PersonAuthView findPersonByUserName(String username) {
+        return personRepository.findPersonByUserName(username);
     }
 
     public boolean authenticate(String username, String password) {
@@ -22,7 +22,7 @@ public class AuthService {
             return false;
         }
 
-        PersonAuthView personAuthView = findPersonByEmail(username);
+        PersonAuthView personAuthView = findPersonByUserName(username);
         if (personAuthView == null) {
             throw new ResourceNotFoundException("Provided username is not found.");
         }

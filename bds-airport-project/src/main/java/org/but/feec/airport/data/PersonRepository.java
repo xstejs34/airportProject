@@ -9,7 +9,7 @@ import java.util.List;
 
 public class PersonRepository {
 
-    public PersonAuthView findPersonByUsername(String username) {
+    public PersonAuthView findPersonByUserName(String username) {
         try (Connection connection = DataSourceConfig.getConnection();
              PreparedStatement preparedStatement = connection.prepareStatement(
                      "SELECT username, password" +
