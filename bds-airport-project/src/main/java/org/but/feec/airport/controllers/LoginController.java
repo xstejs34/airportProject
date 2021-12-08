@@ -2,9 +2,9 @@ package org.but.feec.airport.controllers;
 
 import org.but.feec.airport.App;
 import org.but.feec.airport.data.PersonRepository;
-//import org.but.feec.airport.exceptions.DataAccessException;
-//import org.but.feec.airport.exceptions.ExceptionHandler;
-//import org.but.feec.airport.exceptions.ResourceNotFoundException;
+import org.but.feec.airport.exceptions.DataAccessException;
+import org.but.feec.airport.exceptions.ExceptionHandler;
+import org.but.feec.airport.exceptions.ResourceNotFoundException;
 import org.but.feec.airport.service.AuthService;
 import de.jensd.fx.glyphs.GlyphsDude;
 import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon;
@@ -98,20 +98,20 @@ public class LoginController {
         String password = passwordTextField.getText();
         System.out.print("username:" +username);
         System.out.print("password:" +password);
- //       try {
- //           boolean authenticated = authService.authenticate(username, password);
- //           if (authenticated) {
- //               showPersonsView();
- //           } else {
- //               showInvalidPaswordDialog();
- //           }
- //       } catch (ResourceNotFoundException | DataAccessException e) {
- //           showInvalidPaswordDialog();
- //       }
+        try {
+            boolean authenticated = authService.authenticate(username, password);
+            if (authenticated) {
+                showPersonsView();
+            } else {
+                showInvalidPaswordDialog();
+            }
+        } catch (ResourceNotFoundException | DataAccessException e) {
+            showInvalidPaswordDialog();
+        }
     }
 
     private void showPersonsView() {
-        /*try {
+        try {
             FXMLLoader fxmlLoader = new FXMLLoader();
             fxmlLoader.setLocation(App.class.getResource("fxml/Persons.fxml"));
             Scene scene = new Scene(fxmlLoader.load(), 1050, 600);
@@ -128,7 +128,7 @@ public class LoginController {
             stage.show();
         } catch (IOException ex) {
             ExceptionHandler.handleException(ex);
-        }*/
+        }
     }
 
     private void showInvalidPaswordDialog() {
