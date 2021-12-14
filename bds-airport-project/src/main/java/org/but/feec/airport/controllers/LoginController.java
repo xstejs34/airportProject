@@ -1,5 +1,6 @@
 package org.but.feec.airport.controllers;
 
+import at.favre.lib.crypto.bcrypt.BCrypt;
 import org.but.feec.airport.App;
 import org.but.feec.airport.data.PersonRepository;
 import org.but.feec.airport.exceptions.DataAccessException;
@@ -72,7 +73,6 @@ public class LoginController {
 
         initializeServices();
         initializeValidations();
-
         logger.info("LoginController initialized");
     }
 
@@ -96,8 +96,6 @@ public class LoginController {
     private void handleSignIn() {
         String username = usernameTextfield.getText();
         String password = passwordTextField.getText();
-        System.out.print("username:" +username);
-        System.out.print("password:" +password);
         try {
             boolean authenticated = authService.authenticate(username, password);
             if (authenticated) {
@@ -122,7 +120,7 @@ public class LoginController {
             Stage stageOld = (Stage) signInButton.getScene().getWindow();
             stageOld.close();
 
-            stage.getIcons().add(new Image(App.class.getResourceAsStream("logos/vut.jpg")));
+            //stage.getIcons().add(new Image(App.class.getResourceAsStream("logos/vut.jpg")));
             authConfirmDialog();
 
             stage.show();

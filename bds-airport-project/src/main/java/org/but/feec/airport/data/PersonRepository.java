@@ -1,5 +1,6 @@
 package org.but.feec.airport.data;
 
+import at.favre.lib.crypto.bcrypt.BCrypt;
 import org.but.feec.airport.api.*;
 import org.but.feec.airport.config.DataSourceConfig;
 import org.but.feec.airport.exceptions.DataAccessException;
@@ -155,7 +156,7 @@ public class PersonRepository {
 
     private PersonBasicView mapToPersonBasicView(ResultSet rs) throws SQLException {
         PersonBasicView personBasicView = new PersonBasicView();
-        personBasicView.setId(rs.getLong("id_person"));
+        personBasicView.setId(rs.getLong("id_customer"));
         personBasicView.setGivenName(rs.getString("given_name"));
         personBasicView.setFamilyName(rs.getString("family_name"));
         personBasicView.setUserName(rs.getString("username"));

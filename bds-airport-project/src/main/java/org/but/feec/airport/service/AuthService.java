@@ -28,8 +28,6 @@ public class AuthService {
         }
 
         BCrypt.Result result = BCrypt.verifyer().verify(password.toCharArray(), personAuthView.getPassword());
-        //BCrypt pom= new BCrypt.HashData(password.toCharArray());
-        //System.out.println(); //smazat
         return result.verified;
     }
 
