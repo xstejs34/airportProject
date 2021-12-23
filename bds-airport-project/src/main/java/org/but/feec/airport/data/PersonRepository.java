@@ -110,9 +110,9 @@ public class PersonRepository {
     }
 
     public void editPerson(PersonEditView personEditView) {
-        String insertPersonSQL = "WITH upd1 AS ( UPDATE airport_sys.customer SET given_name=?,family_name=?,diet=? WHERE id_customer=? )," +
+        String insertPersonSQL = "WITH upd1 AS (UPDATE airport_sys.customer SET given_name=?,family_name=?,diet=? WHERE id_customer=? )," +
                 " upd2 AS ( UPDATE airport_sys.contact SET contact_value=? WHERE id_customer=? )," +
-                " upd3 AS ( SELECT id_address FROM airport_sys.customer_has_address WHERE id_customer =? )," +
+                " upd3 AS ( SELECT id_address FROM airport_sys.customer_has_address WHERE id_customer =? )" +
                 " UPDATE airport_sys.address SET city=?,street=?, zip_code=?, house_number=?, id_country=(select id_country FROM airport_sys.country WHERE country=?) WHERE id_address=(select id_address from upd3)";
         String checkIfExists = "SELECT username FROM airport_sys.customer e WHERE e.id_customer =?";
         try (Connection connection = DataSourceConfig.getConnection();
