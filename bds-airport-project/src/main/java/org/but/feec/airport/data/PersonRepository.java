@@ -133,8 +133,8 @@ public class PersonRepository {
             preparedStatement.setString(12, personEditView.getCountry());
             try {
                 connection.setAutoCommit(false);
-                try (PreparedStatement ps = connection.prepareStatement(checkIfExists, Statement.RETURN_GENERATED_KEYS)) {
-                    ps.setLong(1, personEditView.getId());
+                try (PreparedStatement ps = connection.prepareStatement(checkIfExists)){
+                    ps.setInt(1, personEditView.getId());
                     ps.execute();
                 } catch (SQLException e) {
                     throw new DataAccessException("This person for edit does not exist.");
@@ -146,6 +146,7 @@ public class PersonRepository {
                 }
                 connection.commit();
             } catch (SQLException e) {
+                e.printStackTrace();
                 connection.rollback();
             } finally {
                 connection.setAutoCommit(true);
