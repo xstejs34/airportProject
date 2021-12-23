@@ -25,11 +25,6 @@
             <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
-            <Label text="email">
-               <padding>
-                  <Insets left="5.0" />
-               </padding>
-            </Label>
             <Label text="first name" GridPane.rowIndex="1">
                <padding>
                   <Insets left="5.0" />
@@ -40,20 +35,68 @@
                   <Insets left="5.0" />
                </padding>
             </Label>
-            <Label text="pwd" GridPane.rowIndex="3">
+            <Label text="date of birth" GridPane.rowIndex="3">
                <padding>
                   <Insets left="5.0" />
                </padding>
             </Label>
-            <Label text="nickname" GridPane.rowIndex="4">
+            <Label text="diet" GridPane.rowIndex="4">
                <padding>
                   <Insets left="5.0" />
                </padding>
             </Label>
-            <TextField fx:id="newPersonFirstName" promptText="type new person first name" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-            <TextField fx:id="newPersonLastName" promptText="type new person last name" GridPane.columnIndex="1" GridPane.rowIndex="2" />
-            <TextField fx:id="newPersonPwd" promptText="type new person password" GridPane.columnIndex="1" GridPane.rowIndex="3" />
-            <TextField fx:id="newPersonNickname" promptText="type new person nickname" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <Label text="contact" GridPane.rowIndex="5">
+               <padding>
+                  <Insets left="5.0" />
+               </padding>
+            </Label>
+             <Label text="country" GridPane.rowIndex="6">
+                 <padding>
+                     <Insets left="5.0" />
+                 </padding>
+             </Label>
+             <Label text="city" GridPane.rowIndex="7">
+                 <padding>
+                     <Insets left="5.0" />
+                 </padding>
+             </Label>
+             <Label text="street" GridPane.rowIndex="8">
+                 <padding>
+                     <Insets left="5.0" />
+                 </padding>
+             </Label>
+             <Label text="zip code" GridPane.rowIndex="9">
+                 <padding>
+                     <Insets left="5.0" />
+                 </padding>
+             </Label>
+             <Label text="house number" GridPane.rowIndex="10">
+                 <padding>
+                     <Insets left="5.0" />
+                 </padding>
+             </Label>
+             <Label text="username" GridPane.rowIndex="11">
+                 <padding>
+                     <Insets left="5.0" />
+                 </padding>
+             </Label>
+             <Label text="password" GridPane.rowIndex="12">
+                 <padding>
+                     <Insets left="5.0" />
+                 </padding>
+             </Label>
+            <TextField fx:id="newPersonFirstName" promptText="first name" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <TextField fx:id="newPersonLastName" promptText="last name" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <TextField fx:id="newPersonDateOfBirth" promptText="YYYY-MM-DD" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <TextField fx:id="newPersonDiet" promptText="persons diet" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+             <TextField fx:id="newPersonContactValue" promptText="contact" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+             <TextField fx:id="newPersonCountry" promptText="country" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+             <TextField fx:id="newPersonCity" promptText="city" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+             <TextField fx:id="newPersonStreet" promptText="street" GridPane.columnIndex="1" GridPane.rowIndex="8" />
+             <TextField fx:id="newPersonZipCode" promptText="zip code" GridPane.columnIndex="1" GridPane.rowIndex="9" />
+             <TextField fx:id="newPersonHouseNumber" promptText="house number" GridPane.columnIndex="1" GridPane.rowIndex="10" />
+             <TextField fx:id="newPersonUserName" promptText="username" GridPane.columnIndex="1" GridPane.rowIndex="11" />
+             <TextField fx:id="newPersonPwd" promptText="password" GridPane.columnIndex="1" GridPane.rowIndex="12" />
          </children>
       </GridPane>
       <Button fx:id="newPersonCreatePerson" layoutX="501.0" layoutY="349.0" mnemonicParsing="false" onAction="#handleCreateNewPerson" text="create" />

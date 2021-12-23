@@ -7,10 +7,10 @@ import javafx.beans.property.StringProperty;
 
 public class PersonBasicView {
     private LongProperty id = new SimpleLongProperty();
-    private StringProperty city = new SimpleStringProperty();
-    private StringProperty contactValue = new SimpleStringProperty();
     private StringProperty givenName = new SimpleStringProperty();
     private StringProperty familyName = new SimpleStringProperty();
+    private StringProperty city = new SimpleStringProperty();
+    private StringProperty contactValue = new SimpleStringProperty();
     private StringProperty userName = new SimpleStringProperty();
 
     public Long getId() {

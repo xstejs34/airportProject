@@ -9,7 +9,7 @@
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.RowConstraints?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.but.feec.airport.controllers.PersonsEditController">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1">
     <children>
         <GridPane layoutX="22.0" layoutY="22.0" prefHeight="311.0" prefWidth="549.0">
             <columnConstraints>
@@ -30,31 +30,61 @@
                         <Insets left="5.0" />
                     </padding>
                 </Label>
-                <Label text="contact" GridPane.rowIndex="1">
+                <Label text="first name" GridPane.rowIndex="1">
                     <padding>
                         <Insets left="5.0" />
                     </padding>
                 </Label>
-                <Label text="first name" GridPane.rowIndex="2">
+                <Label text="last name" GridPane.rowIndex="2">
                     <padding>
                         <Insets left="5.0" />
                     </padding>
                 </Label>
-                <Label text="last name" GridPane.rowIndex="3">
+                <Label text="contact" GridPane.rowIndex="3">
                     <padding>
                         <Insets left="5.0" />
                     </padding>
                 </Label>
-                <Label text="username" GridPane.rowIndex="4">
+                <Label text="diet" GridPane.rowIndex="4">
+                    <padding>
+                        <Insets left="5.0" />
+                    </padding>
+                </Label>
+                <Label text="country" GridPane.rowIndex="5">
+                    <padding>
+                        <Insets left="5.0" />
+                    </padding>
+                </Label>
+                <Label text="city" GridPane.rowIndex="6">
+                    <padding>
+                        <Insets left="5.0" />
+                    </padding>
+                </Label>
+                <Label text="street" GridPane.rowIndex="7">
+                    <padding>
+                        <Insets left="5.0" />
+                    </padding>
+                </Label>
+                <Label text="house number" GridPane.rowIndex="8">
+                    <padding>
+                        <Insets left="5.0" />
+                    </padding>
+                </Label>
+                <Label text="zip code" GridPane.rowIndex="9">
                     <padding>
                         <Insets left="5.0" />
                     </padding>
                 </Label>
                 <TextField fx:id="idTextField" GridPane.columnIndex="1" />
-                <TextField fx:id="contactValueTextField" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-                <TextField fx:id="givenNameTextField" GridPane.columnIndex="1" GridPane.rowIndex="2" />
-                <TextField fx:id="familyNameTextField" GridPane.columnIndex="1" GridPane.rowIndex="3" />
-                <TextField fx:id="userNameTextField" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                <TextField fx:id="givenNameTextField" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                <TextField fx:id="familyNameTextField" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                <TextField fx:id="contactValueTextField" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                <TextField fx:id="dietTextField" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                <TextField fx:id="countryTextField" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                <TextField fx:id="cityTextField" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+                <TextField fx:id="streetTextField" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+                <TextField fx:id="houseNumberTextField" GridPane.columnIndex="1" GridPane.rowIndex="8" />
+                <TextField fx:id="zipCodeTextField" GridPane.columnIndex="1" GridPane.rowIndex="9" />
             </children>
         </GridPane>
         <Button fx:id="editPersonButton" layoutX="501.0" layoutY="349.0" mnemonicParsing="false" onAction="#handleEditPersonButton" text="edit person" />

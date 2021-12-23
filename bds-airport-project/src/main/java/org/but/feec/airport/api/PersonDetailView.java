@@ -7,13 +7,16 @@ import javafx.beans.property.StringProperty;
 
 public class PersonDetailView {
     private LongProperty id = new SimpleLongProperty();
-    private StringProperty contactValue = new SimpleStringProperty();
     private StringProperty givenName = new SimpleStringProperty();
     private StringProperty familyName = new SimpleStringProperty();
-    private StringProperty userName = new SimpleStringProperty();
+    private StringProperty dateOfBirth = new SimpleStringProperty();
+    private StringProperty diet = new SimpleStringProperty();
+    private StringProperty contactValue = new SimpleStringProperty();
+    private StringProperty country = new SimpleStringProperty();
     private StringProperty city = new SimpleStringProperty();
     private StringProperty street = new SimpleStringProperty();
     private StringProperty houseNumber = new SimpleStringProperty();
+    private StringProperty zipCode = new SimpleStringProperty();
 
     public Long getId() {
         return idProperty().get();
@@ -23,12 +26,12 @@ public class PersonDetailView {
         this.idProperty().setValue(id);
     }
 
-    public String ContactValue() {
-        return contactValueProperty().get();
+    public String getDiet() {
+        return dietProperty().get();
     }
 
-    public void setContactValue(String contactValue) {
-        this.contactValueProperty().setValue(contactValue);
+    public void setDiet(String diet) {
+        this.dietProperty().setValue(diet);
     }
 
     public String getGivenName() {
@@ -47,12 +50,28 @@ public class PersonDetailView {
         this.familyNameProperty().setValue(familyName);
     }
 
-    public String getUserName() {
-        return userNameProperty().get();
+    public String getDateOfBirth() {
+        return dateOfBirthProperty().get();
     }
 
-    public void setUserName(String username) {
-        this.userNameProperty().set(username);
+    public void setDateOfBirth(String dateOfBirth) {
+        this.dateOfBirthProperty().set(dateOfBirth);
+    }
+
+    public String getContactValue() {
+        return contactValueProperty().get();
+    }
+
+    public void setContactValue(String contactValue) {
+        this.contactValueProperty().setValue(contactValue);
+    }
+
+    public String getCountry() {
+        return countryProperty().get();
+    }
+
+    public void setCountry(String country) {
+        this.countryProperty().setValue(country);
     }
 
     public String getCity() {
@@ -79,12 +98,20 @@ public class PersonDetailView {
         this.streetProperty().setValue(street);
     }
 
+    public String getZipCode() {
+        return zipCodeProperty().get();
+    }
+
+    public void setZipCode(String zipCode) {
+        this.zipCodeProperty().setValue(zipCode);
+    }
+
     public LongProperty idProperty() {
         return id;
     }
 
-    public StringProperty contactValueProperty() {
-        return contactValue;
+    public StringProperty dietProperty() {
+        return diet;
     }
 
     public StringProperty givenNameProperty() {
@@ -95,8 +122,16 @@ public class PersonDetailView {
         return familyName;
     }
 
-    public StringProperty userNameProperty() {
-        return userName;
+    public StringProperty dateOfBirthProperty() {
+        return dateOfBirth;
+    }
+
+    public StringProperty contactValueProperty() {
+        return contactValue;
+    }
+
+    public StringProperty countryProperty() {
+        return country;
     }
 
     public StringProperty cityProperty() {
@@ -111,5 +146,8 @@ public class PersonDetailView {
         return street;
     }
 
+    public StringProperty zipCodeProperty() {
+        return zipCode;
+    }
 
 }

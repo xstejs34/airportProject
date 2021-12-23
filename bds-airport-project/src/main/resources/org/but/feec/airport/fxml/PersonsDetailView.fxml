@@ -32,7 +32,7 @@
                         <Insets left="5.0" />
                     </padding>
                 </Label>
-                <Label text="contact" GridPane.rowIndex="1">
+                <Label text="diet" GridPane.rowIndex="1">
                     <padding>
                         <Insets left="5.0" />
                     </padding>
@@ -47,17 +47,31 @@
                         <Insets left="5.0" />
                     </padding>
                 </Label>
-                <Label text="user name" GridPane.rowIndex="4">
+                <Label text="date of birth" GridPane.rowIndex="4">
+                    <padding>
+                        <Insets left="5.0" />
+                    </padding>
+                </Label>
+                <Label text="contact" GridPane.rowIndex="5">
                     <padding>
                         <Insets left="5.0" />
                     </padding>
                 </Label>
                 <TextField fx:id="idTextField" GridPane.columnIndex="1" />
-                <TextField fx:id="contactValueTextField" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                <TextField fx:id="dietTextField" GridPane.columnIndex="1" GridPane.rowIndex="1" />
                 <TextField fx:id="givenNameTextField" GridPane.columnIndex="1" GridPane.rowIndex="2" />
                 <TextField fx:id="familyNameTextField" GridPane.columnIndex="1" GridPane.rowIndex="3" />
-                <TextField fx:id="userNameTextField" GridPane.columnIndex="1" GridPane.rowIndex="4" />
-            <Label text="city" GridPane.rowIndex="5">
+                <TextField fx:id="dateOfBirthTextField" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                <TextField fx:id="contactValueTextField" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+            <Label text="country" GridPane.rowIndex="6">
+                <GridPane.margin>
+                    <Insets />
+                </GridPane.margin>
+                <padding>
+                    <Insets left="5.0" />
+                </padding>
+            </Label>
+            <Label text="city" GridPane.rowIndex="7">
                <GridPane.margin>
                   <Insets />
                </GridPane.margin>
@@ -65,19 +79,26 @@
                   <Insets left="5.0" />
                </padding>
             </Label>
-            <Label text="house number" GridPane.rowIndex="6">
+            <Label text="house number" GridPane.rowIndex="8">
                <padding>
                   <Insets left="5.0" />
                </padding>
             </Label>
-            <Label text="street" GridPane.rowIndex="7">
+            <Label text="street" GridPane.rowIndex="9">
                <padding>
                   <Insets left="5.0" />
                </padding>
             </Label>
-            <TextField fx:id="cityTextField" GridPane.columnIndex="1" GridPane.rowIndex="5" />
-            <TextField fx:id="houseNumberTextField" GridPane.columnIndex="1" GridPane.rowIndex="6" />
-            <TextField fx:id="streetTextField" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+            <Label text="zip code" GridPane.rowIndex="10">
+                <padding>
+                    <Insets left="5.0" />
+                </padding>
+            </Label>
+            <TextField fx:id="countryTextField" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+            <TextField fx:id="cityTextField" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+            <TextField fx:id="houseNumberTextField" GridPane.columnIndex="1" GridPane.rowIndex="8" />
+            <TextField fx:id="streetTextField" GridPane.columnIndex="1" GridPane.rowIndex="9" />
+            <TextField fx:id="zipCodeTextField" GridPane.columnIndex="1" GridPane.rowIndex="10" />
             </children>
         </GridPane>
     </children>

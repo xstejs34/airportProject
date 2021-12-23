@@ -62,10 +62,10 @@ public class PersonsController {
 
         personsId.setCellValueFactory(new PropertyValueFactory<PersonBasicView, Long>("id"));
         personsCity.setCellValueFactory(new PropertyValueFactory<PersonBasicView, String>("city"));
-        personsContactValue.setCellValueFactory(new PropertyValueFactory<PersonBasicView, String>("contact"));
+        personsContactValue.setCellValueFactory(new PropertyValueFactory<PersonBasicView, String>("contactValue"));
         personsFamilyName.setCellValueFactory(new PropertyValueFactory<PersonBasicView, String>("familyName"));
         personsGivenName.setCellValueFactory(new PropertyValueFactory<PersonBasicView, String>("givenName"));
-        personsUserName.setCellValueFactory(new PropertyValueFactory<PersonBasicView, String>("nickname"));
+        personsUserName.setCellValueFactory(new PropertyValueFactory<PersonBasicView, String>("userName"));
 
 
         ObservableList<PersonBasicView> observablePersonsList = initializePersonsData();
@@ -74,7 +74,7 @@ public class PersonsController {
         systemPersonsTableView.getSortOrder().add(personsId);
 
         initializeTableViewSelection();
-        loadIcons();
+        //loadIcons();
 
         logger.info("PersonsController initialized");
     }
@@ -84,11 +84,15 @@ public class PersonsController {
         MenuItem detailedView = new MenuItem("Detailed person view");
         edit.setOnAction((ActionEvent event) -> {
             PersonBasicView personView = systemPersonsTableView.getSelectionModel().getSelectedItem();
+            Long id=personView.getId();
+
             try {
+
                 FXMLLoader fxmlLoader = new FXMLLoader();
                 fxmlLoader.setLocation(App.class.getResource("fxml/PersonEdit.fxml"));
                 Stage stage = new Stage();
-                stage.setUserData(personView);
+                PersonDetailView personDetailedView = personService.getPersonDetailView(id);
+                stage.setUserData(personDetailedView);
                 stage.setTitle("BDS JavaFX Edit Person");
 
                 PersonsEditController controller = new PersonsEditController();
@@ -106,7 +110,7 @@ public class PersonsController {
         });
 
         detailedView.setOnAction((ActionEvent event) -> {
-            PersonBasicView personView = systemPersonsTableView.getSelectionModel().getSelectedItem();
+            PersonBasicView personView = systemPersonsTableView.getSelectionModel().getSelectedItem(); //later use for flights*****
             try {
                 FXMLLoader fxmlLoader = new FXMLLoader();
                 fxmlLoader.setLocation(App.class.getResource("fxml/PersonsDetailView.fxml"));
@@ -144,13 +148,13 @@ public class PersonsController {
         return FXCollections.observableArrayList(persons);
     }
 
-    private void loadIcons() {
+    /*private void loadIcons() {
         Image vutLogoImage = new Image(App.class.getResourceAsStream("logos/vut-logo-eng.png"));
         ImageView vutLogo = new ImageView(vutLogoImage);
         vutLogo.setFitWidth(150);
         vutLogo.setFitHeight(50);
     }
-
+    */
     public void handleExitMenuItem(ActionEvent event) {
         System.exit(0);
     }

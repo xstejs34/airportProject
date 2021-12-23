@@ -12,6 +12,7 @@ import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 import javafx.util.Duration;
 import org.but.feec.airport.api.PersonBasicView;
+import org.but.feec.airport.api.PersonDetailView;
 import org.but.feec.airport.api.PersonEditView;
 import org.but.feec.airport.data.PersonRepository;
 import org.but.feec.airport.service.PersonService;
@@ -38,7 +39,18 @@ public class PersonsEditController {
     @FXML
     private TextField familyNameTextField;
     @FXML
-    private TextField userNameTextField;
+    private TextField countryTextField;
+    @FXML
+    private TextField dietTextField;
+    @FXML
+    private TextField cityTextField;
+    @FXML
+    private TextField streetTextField;
+    @FXML
+    private TextField houseNumberTextField;
+    @FXML
+    private TextField zipCodeTextField;
+
 
     private PersonService personService;
     private PersonRepository personRepository;
@@ -59,11 +71,14 @@ public class PersonsEditController {
         validation = new ValidationSupport();
         validation.registerValidator(idTextField, Validator.createEmptyValidator("The id must not be empty."));
         idTextField.setEditable(false);
-        //validation.registerValidator(emailTextField, Validator.createEmptyValidator("The email must not be empty."));
+        validation.registerValidator(contactValueTextField, Validator.createEmptyValidator("The contact must not be empty."));
         validation.registerValidator(givenNameTextField, Validator.createEmptyValidator("The first name must not be empty."));
         validation.registerValidator(familyNameTextField, Validator.createEmptyValidator("The last name must not be empty."));
-        validation.registerValidator(userNameTextField, Validator.createEmptyValidator("The nickname must not be empty."));
-
+        validation.registerValidator(countryTextField, Validator.createEmptyValidator("The country must not be empty."));
+        validation.registerValidator(cityTextField, Validator.createEmptyValidator("The city must not be empty."));
+        validation.registerValidator(streetTextField, Validator.createEmptyValidator("The street must not be empty."));
+        validation.registerValidator(zipCodeTextField, Validator.createEmptyValidator("The zip code must not be empty."));
+        validation.registerValidator(houseNumberTextField, Validator.createEmptyValidator("The house number must not be empty."));
         editPersonButton.disableProperty().bind(validation.invalidProperty());
 
         loadPersonsData();
@@ -76,31 +91,47 @@ public class PersonsEditController {
      */
     private void loadPersonsData() {
         Stage stage = this.stage;
-        if (stage.getUserData() instanceof PersonBasicView) {
-            PersonBasicView personBasicView = (PersonBasicView) stage.getUserData();
-            idTextField.setText(String.valueOf(personBasicView.getId()));
-            //emailTextField.setText(personBasicView.getEmail());
-            givenNameTextField.setText(personBasicView.getGivenName());
-            familyNameTextField.setText(personBasicView.getFamilyName());
-            userNameTextField.setText(personBasicView.getUserName());
+        if (stage.getUserData() instanceof PersonDetailView) {
+
+            PersonDetailView personDetailView = (PersonDetailView) stage.getUserData();
+            idTextField.setText(String.valueOf(personDetailView.getId()));
+            contactValueTextField.setText(personDetailView.getContactValue());
+            givenNameTextField.setText(personDetailView.getGivenName());
+            familyNameTextField.setText(personDetailView.getFamilyName());
+            countryTextField.setText(personDetailView.getCountry());
+            dietTextField.setText(personDetailView.getDiet());
+            cityTextField.setText(personDetailView.getCity());
+            streetTextField.setText(personDetailView.getStreet());
+            houseNumberTextField.setText(personDetailView.getHouseNumber());
+            zipCodeTextField.setText(personDetailView.getZipCode());
         }
     }
 
     @FXML
     public void handleEditPersonButton(ActionEvent event) {
         // can be written easier, its just for better explanation here on so many lines
-        Long id = Long.valueOf(idTextField.getText());
-        //String email = emailTextField.getText();
+        Integer id = Integer.valueOf(idTextField.getText());
+        String contactValue = contactValueTextField.getText();
         String givenName = givenNameTextField.getText();
         String familyName = familyNameTextField.getText();
-        String userName = userNameTextField.getText();
+        String diet= dietTextField.getText();
+        String country= countryTextField.getText();
+        String city= cityTextField.getText();
+        String street= streetTextField.getText();
+        String houseNumber= houseNumberTextField.getText();
+        String zipCode= zipCodeTextField.getText();
 
         PersonEditView personEditView = new PersonEditView();
         personEditView.setId(id);
-        //personEditView.setContactValue(contactValue);
+        personEditView.setContactValue(contactValue);
         personEditView.setGivenName(givenName);
         personEditView.setFamilyName(familyName);
-        personEditView.setUserName(userName);
+        personEditView.setDiet(diet);
+        personEditView.setCountry(country);
+        personEditView.setCity(city);
+        personEditView.setStreet(street);
+        personEditView.setHouseNumber(houseNumber);
+        personEditView.setZipCode(zipCode);
 
         personService.editPerson(personEditView);
 

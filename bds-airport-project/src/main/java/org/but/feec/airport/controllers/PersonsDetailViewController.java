@@ -15,7 +15,7 @@ public class PersonsDetailViewController {
     private TextField idTextField;
 
     @FXML
-    private TextField contactValueTextField;
+    private TextField dietTextField;
 
     @FXML
     private TextField givenNameTextField;
@@ -24,7 +24,13 @@ public class PersonsDetailViewController {
     private TextField familyNameTextField;
 
     @FXML
-    private TextField userNameTextField;
+    private TextField dateOfBirthTextField;
+
+    @FXML
+    private TextField contactValueTextField;
+
+    @FXML
+    private TextField countryTextField;
 
     @FXML
     private TextField cityTextField;
@@ -34,6 +40,9 @@ public class PersonsDetailViewController {
 
     @FXML
     private TextField streetTextField;
+
+    @FXML
+    private TextField zipCodeTextField;
 
     // used to reference the stage and to get passed data through it
     public Stage stage;
@@ -45,13 +54,16 @@ public class PersonsDetailViewController {
     @FXML
     public void initialize() {
         idTextField.setEditable(false);
-        contactValueTextField.setEditable(false);
+        dietTextField.setEditable(false);
         givenNameTextField.setEditable(false);
         familyNameTextField.setEditable(false);
-        userNameTextField.setEditable(false);
+        dateOfBirthTextField.setEditable(false);
+        contactValueTextField.setEditable(false);
+        countryTextField.setEditable(false);
         cityTextField.setEditable(false);
         houseNumberTextField.setEditable(false);
         streetTextField.setEditable(false);
+        zipCodeTextField.setEditable(false);
 
         loadPersonsData();
 
@@ -65,10 +77,14 @@ public class PersonsDetailViewController {
             idTextField.setText(String.valueOf(personBasicView.getId()));
             givenNameTextField.setText(personBasicView.getGivenName());
             familyNameTextField.setText(personBasicView.getFamilyName());
-            userNameTextField.setText(personBasicView.getUserName());
+            dietTextField.setText(personBasicView.getDiet());
+            dateOfBirthTextField.setText(personBasicView.getDateOfBirth());
+            contactValueTextField.setText(personBasicView.getContactValue());
+            countryTextField.setText(personBasicView.getCountry());
             cityTextField.setText(personBasicView.getCity());
             houseNumberTextField.setText(personBasicView.getHouseNumber());
             streetTextField.setText(personBasicView.getStreet());
+            zipCodeTextField.setText(personBasicView.getZipCode());
         }
     }
 

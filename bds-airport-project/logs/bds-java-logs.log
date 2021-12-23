@@ -1,488 +1,870 @@
-1742 [JavaFX Application Thread] INFO  o.b.f.a.controllers.LoginController - LoginController initialized
+1442 [JavaFX Application Thread] INFO  o.b.f.a.controllers.LoginController - LoginController initialized
+8286 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsController - PersonsController initialized
+28400 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonCreateController - PersonCreateController initialized
+121654 [JavaFX Application Thread] ERROR o.b.f.a.controllers.LoginController - Controller value already specified.
+file:/C:/Users/test/IdeaProjects/bds-airport-project/bds-airport-project/target/bds-airport-project-1.0.0.jar!/org/but/feec/airport/fxml/PersonEdit.fxml:12
+
+javafx.fxml.LoadException: Controller value already specified.
+file:/C:/Users/test/IdeaProjects/bds-airport-project/bds-airport-project/target/bds-airport-project-1.0.0.jar!/org/but/feec/airport/fxml/PersonEdit.fxml:12
+
+	at javafx.fxml.FXMLLoader.constructLoadException(FXMLLoader.java:2703)
+	at javafx.fxml.FXMLLoader$ValueElement.processAttribute(FXMLLoader.java:924)
+	at javafx.fxml.FXMLLoader$InstanceDeclarationElement.processAttribute(FXMLLoader.java:982)
+	at javafx.fxml.FXMLLoader$Element.processStartElement(FXMLLoader.java:229)
+	at javafx.fxml.FXMLLoader$ValueElement.processStartElement(FXMLLoader.java:754)
+	at javafx.fxml.FXMLLoader.processStartElement(FXMLLoader.java:2808)
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2634)
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2548)
+	at javafx.fxml.FXMLLoader.load(FXMLLoader.java:2517)
+	at org.but.feec.airport.controllers.PersonsController.lambda$initializeTableViewSelection$0(PersonsController.java:98)
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49)
+	at javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.scene.control.MenuItem.fire(MenuItem.java:459)
+	at com.sun.javafx.scene.control.ContextMenuContent$MenuItemContainer.doSelect(ContextMenuContent.java:1385)
+	at com.sun.javafx.scene.control.ContextMenuContent$MenuItemContainer.lambda$createChildren$12(ContextMenuContent.java:1338)
+	at com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247)
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.scene.Scene$MouseHandler.process(Scene.java:3856)
+	at javafx.scene.Scene.processMouseEvent(Scene.java:1851)
+	at javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2584)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:409)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:299)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:447)
+	at com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:412)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:446)
+	at com.sun.glass.ui.View.handleMouseEvent(View.java:556)
+	at com.sun.glass.ui.View.notifyMouse(View.java:942)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:174)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+125348 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsDetailViewController - PersonsDetailViewController initialized
+168420 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsDetailViewController - PersonsDetailViewController initialized
+171356 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsDetailViewController - PersonsDetailViewController initialized
+1415 [JavaFX Application Thread] INFO  o.b.f.a.controllers.LoginController - LoginController initialized
+16585 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsController - PersonsController initialized
+24288 [JavaFX Application Thread] ERROR o.b.f.a.controllers.LoginController - 
+file:/C:/Users/test/IdeaProjects/bds-airport-project/bds-airport-project/target/bds-airport-project-1.0.0.jar!/org/but/feec/airport/fxml/PersonsDetailView.fxml
+
+javafx.fxml.LoadException: 
+file:/C:/Users/test/IdeaProjects/bds-airport-project/bds-airport-project/target/bds-airport-project-1.0.0.jar!/org/but/feec/airport/fxml/PersonsDetailView.fxml
+
+	at javafx.fxml.FXMLLoader.constructLoadException(FXMLLoader.java:2707)
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2677)
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2548)
+	at javafx.fxml.FXMLLoader.load(FXMLLoader.java:2517)
+	at org.but.feec.airport.controllers.PersonsController.lambda$initializeTableViewSelection$1(PersonsController.java:125)
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49)
+	at javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.scene.control.MenuItem.fire(MenuItem.java:459)
+	at com.sun.javafx.scene.control.ContextMenuContent$MenuItemContainer.doSelect(ContextMenuContent.java:1385)
+	at com.sun.javafx.scene.control.ContextMenuContent$MenuItemContainer.lambda$createChildren$12(ContextMenuContent.java:1338)
+	at com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247)
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.scene.Scene$MouseHandler.process(Scene.java:3856)
+	at javafx.scene.Scene.processMouseEvent(Scene.java:1851)
+	at javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2584)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:409)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:299)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:447)
+	at com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:412)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:446)
+	at com.sun.glass.ui.View.handleMouseEvent(View.java:556)
+	at com.sun.glass.ui.View.notifyMouse(View.java:942)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:174)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.reflect.InvocationTargetException: null
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:76)
+	at jdk.internal.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:273)
+	at com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:83)
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2673)
+	... 44 common frames omitted
+Caused by: java.lang.NullPointerException: null
+	at org.but.feec.airport.controllers.PersonsDetailViewController.initialize(PersonsDetailViewController.java:61)
+	... 55 common frames omitted
+28540 [JavaFX Application Thread] ERROR o.b.f.a.controllers.LoginController - 
+file:/C:/Users/test/IdeaProjects/bds-airport-project/bds-airport-project/target/bds-airport-project-1.0.0.jar!/org/but/feec/airport/fxml/PersonsDetailView.fxml
+
+javafx.fxml.LoadException: 
+file:/C:/Users/test/IdeaProjects/bds-airport-project/bds-airport-project/target/bds-airport-project-1.0.0.jar!/org/but/feec/airport/fxml/PersonsDetailView.fxml
+
+	at javafx.fxml.FXMLLoader.constructLoadException(FXMLLoader.java:2707)
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2677)
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2548)
+	at javafx.fxml.FXMLLoader.load(FXMLLoader.java:2517)
+	at org.but.feec.airport.controllers.PersonsController.lambda$initializeTableViewSelection$1(PersonsController.java:125)
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49)
+	at javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.scene.control.MenuItem.fire(MenuItem.java:459)
+	at com.sun.javafx.scene.control.ContextMenuContent$MenuItemContainer.doSelect(ContextMenuContent.java:1385)
+	at com.sun.javafx.scene.control.ContextMenuContent$MenuItemContainer.lambda$createChildren$12(ContextMenuContent.java:1338)
+	at com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247)
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.scene.Scene$MouseHandler.process(Scene.java:3856)
+	at javafx.scene.Scene.processMouseEvent(Scene.java:1851)
+	at javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2584)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:409)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:299)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:447)
+	at com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:412)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:446)
+	at com.sun.glass.ui.View.handleMouseEvent(View.java:556)
+	at com.sun.glass.ui.View.notifyMouse(View.java:942)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:174)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.reflect.InvocationTargetException: null
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:76)
+	at jdk.internal.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:273)
+	at com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:83)
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2673)
+	... 44 common frames omitted
+Caused by: java.lang.NullPointerException: null
+	at org.but.feec.airport.controllers.PersonsDetailViewController.initialize(PersonsDetailViewController.java:61)
+	... 55 common frames omitted
+31960 [JavaFX Application Thread] ERROR o.b.f.a.controllers.LoginController - 
+file:/C:/Users/test/IdeaProjects/bds-airport-project/bds-airport-project/target/bds-airport-project-1.0.0.jar!/org/but/feec/airport/fxml/PersonsDetailView.fxml
+
+javafx.fxml.LoadException: 
+file:/C:/Users/test/IdeaProjects/bds-airport-project/bds-airport-project/target/bds-airport-project-1.0.0.jar!/org/but/feec/airport/fxml/PersonsDetailView.fxml
+
+	at javafx.fxml.FXMLLoader.constructLoadException(FXMLLoader.java:2707)
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2677)
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2548)
+	at javafx.fxml.FXMLLoader.load(FXMLLoader.java:2517)
+	at org.but.feec.airport.controllers.PersonsController.lambda$initializeTableViewSelection$1(PersonsController.java:125)
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49)
+	at javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.scene.control.MenuItem.fire(MenuItem.java:459)
+	at com.sun.javafx.scene.control.ContextMenuContent$MenuItemContainer.doSelect(ContextMenuContent.java:1385)
+	at com.sun.javafx.scene.control.ContextMenuContent$MenuItemContainer.lambda$createChildren$12(ContextMenuContent.java:1338)
+	at com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247)
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.scene.Scene$MouseHandler.process(Scene.java:3856)
+	at javafx.scene.Scene.processMouseEvent(Scene.java:1851)
+	at javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2584)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:409)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:299)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:447)
+	at com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:412)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:446)
+	at com.sun.glass.ui.View.handleMouseEvent(View.java:556)
+	at com.sun.glass.ui.View.notifyMouse(View.java:942)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:174)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.reflect.InvocationTargetException: null
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:76)
+	at jdk.internal.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:273)
+	at com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:83)
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2673)
+	... 44 common frames omitted
+Caused by: java.lang.NullPointerException: null
+	at org.but.feec.airport.controllers.PersonsDetailViewController.initialize(PersonsDetailViewController.java:61)
+	... 55 common frames omitted
+2194 [JavaFX Application Thread] INFO  o.b.f.a.controllers.LoginController - LoginController initialized
+9310 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsController - PersonsController initialized
+15055 [JavaFX Application Thread] ERROR o.b.f.a.controllers.LoginController - 
+file:/C:/Users/test/IdeaProjects/bds-airport-project/bds-airport-project/target/bds-airport-project-1.0.0.jar!/org/but/feec/airport/fxml/PersonsDetailView.fxml
+
+javafx.fxml.LoadException: 
+file:/C:/Users/test/IdeaProjects/bds-airport-project/bds-airport-project/target/bds-airport-project-1.0.0.jar!/org/but/feec/airport/fxml/PersonsDetailView.fxml
+
+	at javafx.fxml.FXMLLoader.constructLoadException(FXMLLoader.java:2707)
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2677)
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2548)
+	at javafx.fxml.FXMLLoader.load(FXMLLoader.java:2517)
+	at org.but.feec.airport.controllers.PersonsController.lambda$initializeTableViewSelection$1(PersonsController.java:125)
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49)
+	at javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.scene.control.MenuItem.fire(MenuItem.java:459)
+	at com.sun.javafx.scene.control.ContextMenuContent$MenuItemContainer.doSelect(ContextMenuContent.java:1385)
+	at com.sun.javafx.scene.control.ContextMenuContent$MenuItemContainer.lambda$createChildren$12(ContextMenuContent.java:1338)
+	at com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247)
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.scene.Scene$MouseHandler.process(Scene.java:3856)
+	at javafx.scene.Scene.processMouseEvent(Scene.java:1851)
+	at javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2584)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:409)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:299)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:447)
+	at com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:412)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:446)
+	at com.sun.glass.ui.View.handleMouseEvent(View.java:556)
+	at com.sun.glass.ui.View.notifyMouse(View.java:942)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:174)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.reflect.InvocationTargetException: null
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:76)
+	at jdk.internal.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:273)
+	at com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:83)
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2673)
+	... 44 common frames omitted
+Caused by: java.lang.NullPointerException: null
+	at org.but.feec.airport.controllers.PersonsDetailViewController.initialize(PersonsDetailViewController.java:61)
+	... 55 common frames omitted
+287644 [JavaFX Application Thread] ERROR o.b.f.a.controllers.LoginController - Controller value already specified.
+file:/C:/Users/test/IdeaProjects/bds-airport-project/bds-airport-project/target/bds-airport-project-1.0.0.jar!/org/but/feec/airport/fxml/PersonEdit.fxml:12
+
+javafx.fxml.LoadException: Controller value already specified.
+file:/C:/Users/test/IdeaProjects/bds-airport-project/bds-airport-project/target/bds-airport-project-1.0.0.jar!/org/but/feec/airport/fxml/PersonEdit.fxml:12
+
+	at javafx.fxml.FXMLLoader.constructLoadException(FXMLLoader.java:2703)
+	at javafx.fxml.FXMLLoader$ValueElement.processAttribute(FXMLLoader.java:924)
+	at javafx.fxml.FXMLLoader$InstanceDeclarationElement.processAttribute(FXMLLoader.java:982)
+	at javafx.fxml.FXMLLoader$Element.processStartElement(FXMLLoader.java:229)
+	at javafx.fxml.FXMLLoader$ValueElement.processStartElement(FXMLLoader.java:754)
+	at javafx.fxml.FXMLLoader.processStartElement(FXMLLoader.java:2808)
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2634)
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2548)
+	at javafx.fxml.FXMLLoader.load(FXMLLoader.java:2517)
+	at org.but.feec.airport.controllers.PersonsController.lambda$initializeTableViewSelection$0(PersonsController.java:98)
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49)
+	at javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.scene.control.MenuItem.fire(MenuItem.java:459)
+	at com.sun.javafx.scene.control.ContextMenuContent$MenuItemContainer.doSelect(ContextMenuContent.java:1385)
+	at com.sun.javafx.scene.control.ContextMenuContent$MenuItemContainer.lambda$createChildren$12(ContextMenuContent.java:1338)
+	at com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247)
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.scene.Scene$MouseHandler.process(Scene.java:3856)
+	at javafx.scene.Scene.processMouseEvent(Scene.java:1851)
+	at javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2584)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:409)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:299)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:447)
+	at com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:412)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:446)
+	at com.sun.glass.ui.View.handleMouseEvent(View.java:556)
+	at com.sun.glass.ui.View.notifyMouse(View.java:942)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:174)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+292625 [JavaFX Application Thread] ERROR o.b.f.a.controllers.LoginController - 
+file:/C:/Users/test/IdeaProjects/bds-airport-project/bds-airport-project/target/bds-airport-project-1.0.0.jar!/org/but/feec/airport/fxml/PersonsDetailView.fxml
+
+javafx.fxml.LoadException: 
+file:/C:/Users/test/IdeaProjects/bds-airport-project/bds-airport-project/target/bds-airport-project-1.0.0.jar!/org/but/feec/airport/fxml/PersonsDetailView.fxml
+
+	at javafx.fxml.FXMLLoader.constructLoadException(FXMLLoader.java:2707)
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2677)
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2548)
+	at javafx.fxml.FXMLLoader.load(FXMLLoader.java:2517)
+	at org.but.feec.airport.controllers.PersonsController.lambda$initializeTableViewSelection$1(PersonsController.java:125)
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49)
+	at javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.scene.control.MenuItem.fire(MenuItem.java:459)
+	at com.sun.javafx.scene.control.ContextMenuContent$MenuItemContainer.doSelect(ContextMenuContent.java:1385)
+	at com.sun.javafx.scene.control.ContextMenuContent$MenuItemContainer.lambda$createChildren$12(ContextMenuContent.java:1338)
+	at com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247)
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.scene.Scene$MouseHandler.process(Scene.java:3856)
+	at javafx.scene.Scene.processMouseEvent(Scene.java:1851)
+	at javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2584)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:409)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:299)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:447)
+	at com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:412)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:446)
+	at com.sun.glass.ui.View.handleMouseEvent(View.java:556)
+	at com.sun.glass.ui.View.notifyMouse(View.java:942)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:174)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.reflect.InvocationTargetException: null
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:76)
+	at jdk.internal.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:273)
+	at com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:83)
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2673)
+	... 44 common frames omitted
+Caused by: java.lang.NullPointerException: null
+	at org.but.feec.airport.controllers.PersonsDetailViewController.initialize(PersonsDetailViewController.java:61)
+	... 55 common frames omitted
+298665 [JavaFX Application Thread] ERROR o.b.f.a.controllers.LoginController - 
+file:/C:/Users/test/IdeaProjects/bds-airport-project/bds-airport-project/target/bds-airport-project-1.0.0.jar!/org/but/feec/airport/fxml/PersonsDetailView.fxml
+
+javafx.fxml.LoadException: 
+file:/C:/Users/test/IdeaProjects/bds-airport-project/bds-airport-project/target/bds-airport-project-1.0.0.jar!/org/but/feec/airport/fxml/PersonsDetailView.fxml
+
+	at javafx.fxml.FXMLLoader.constructLoadException(FXMLLoader.java:2707)
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2677)
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2548)
+	at javafx.fxml.FXMLLoader.load(FXMLLoader.java:2517)
+	at org.but.feec.airport.controllers.PersonsController.lambda$initializeTableViewSelection$1(PersonsController.java:125)
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49)
+	at javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.scene.control.MenuItem.fire(MenuItem.java:459)
+	at com.sun.javafx.scene.control.ContextMenuContent$MenuItemContainer.doSelect(ContextMenuContent.java:1385)
+	at com.sun.javafx.scene.control.ContextMenuContent$MenuItemContainer.lambda$createChildren$12(ContextMenuContent.java:1338)
+	at com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247)
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.scene.Scene$MouseHandler.process(Scene.java:3856)
+	at javafx.scene.Scene.processMouseEvent(Scene.java:1851)
+	at javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2584)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:409)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:299)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:447)
+	at com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:412)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:446)
+	at com.sun.glass.ui.View.handleMouseEvent(View.java:556)
+	at com.sun.glass.ui.View.notifyMouse(View.java:942)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:174)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.reflect.InvocationTargetException: null
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:76)
+	at jdk.internal.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:273)
+	at com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:83)
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2673)
+	... 44 common frames omitted
+Caused by: java.lang.NullPointerException: null
+	at org.but.feec.airport.controllers.PersonsDetailViewController.initialize(PersonsDetailViewController.java:61)
+	... 55 common frames omitted
+2204 [JavaFX Application Thread] INFO  o.b.f.a.controllers.LoginController - LoginController initialized
+8172 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsController - PersonsController initialized
+13945 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsDetailViewController - PersonsDetailViewController initialized
+22020 [JavaFX Application Thread] ERROR o.b.f.a.controllers.LoginController - Controller value already specified.
+file:/C:/Users/test/IdeaProjects/bds-airport-project/bds-airport-project/target/bds-airport-project-1.0.0.jar!/org/but/feec/airport/fxml/PersonEdit.fxml:12
+
+javafx.fxml.LoadException: Controller value already specified.
+file:/C:/Users/test/IdeaProjects/bds-airport-project/bds-airport-project/target/bds-airport-project-1.0.0.jar!/org/but/feec/airport/fxml/PersonEdit.fxml:12
+
+	at javafx.fxml.FXMLLoader.constructLoadException(FXMLLoader.java:2703)
+	at javafx.fxml.FXMLLoader$ValueElement.processAttribute(FXMLLoader.java:924)
+	at javafx.fxml.FXMLLoader$InstanceDeclarationElement.processAttribute(FXMLLoader.java:982)
+	at javafx.fxml.FXMLLoader$Element.processStartElement(FXMLLoader.java:229)
+	at javafx.fxml.FXMLLoader$ValueElement.processStartElement(FXMLLoader.java:754)
+	at javafx.fxml.FXMLLoader.processStartElement(FXMLLoader.java:2808)
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2634)
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2548)
+	at javafx.fxml.FXMLLoader.load(FXMLLoader.java:2517)
+	at org.but.feec.airport.controllers.PersonsController.lambda$initializeTableViewSelection$0(PersonsController.java:98)
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49)
+	at javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.scene.control.MenuItem.fire(MenuItem.java:459)
+	at com.sun.javafx.scene.control.ContextMenuContent$MenuItemContainer.doSelect(ContextMenuContent.java:1385)
+	at com.sun.javafx.scene.control.ContextMenuContent$MenuItemContainer.lambda$createChildren$12(ContextMenuContent.java:1338)
+	at com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247)
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.scene.Scene$MouseHandler.process(Scene.java:3856)
+	at javafx.scene.Scene.processMouseEvent(Scene.java:1851)
+	at javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2584)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:409)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:299)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:447)
+	at com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:412)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:446)
+	at com.sun.glass.ui.View.handleMouseEvent(View.java:556)
+	at com.sun.glass.ui.View.notifyMouse(View.java:942)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:174)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2128 [JavaFX Application Thread] INFO  o.b.f.a.controllers.LoginController - LoginController initialized
+8129 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsController - PersonsController initialized
+17009 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsDetailViewController - PersonsDetailViewController initialized
+31873 [JavaFX Application Thread] ERROR o.b.f.a.controllers.LoginController - Controller value already specified.
+file:/C:/Users/test/IdeaProjects/bds-airport-project/bds-airport-project/target/bds-airport-project-1.0.0.jar!/org/but/feec/airport/fxml/PersonEdit.fxml:12
+
+javafx.fxml.LoadException: Controller value already specified.
+file:/C:/Users/test/IdeaProjects/bds-airport-project/bds-airport-project/target/bds-airport-project-1.0.0.jar!/org/but/feec/airport/fxml/PersonEdit.fxml:12
+
+	at javafx.fxml.FXMLLoader.constructLoadException(FXMLLoader.java:2703)
+	at javafx.fxml.FXMLLoader$ValueElement.processAttribute(FXMLLoader.java:924)
+	at javafx.fxml.FXMLLoader$InstanceDeclarationElement.processAttribute(FXMLLoader.java:982)
+	at javafx.fxml.FXMLLoader$Element.processStartElement(FXMLLoader.java:229)
+	at javafx.fxml.FXMLLoader$ValueElement.processStartElement(FXMLLoader.java:754)
+	at javafx.fxml.FXMLLoader.processStartElement(FXMLLoader.java:2808)
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2634)
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2548)
+	at javafx.fxml.FXMLLoader.load(FXMLLoader.java:2517)
+	at org.but.feec.airport.controllers.PersonsController.lambda$initializeTableViewSelection$0(PersonsController.java:98)
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49)
+	at javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.scene.control.MenuItem.fire(MenuItem.java:459)
+	at com.sun.javafx.scene.control.ContextMenuContent$MenuItemContainer.doSelect(ContextMenuContent.java:1385)
+	at com.sun.javafx.scene.control.ContextMenuContent$MenuItemContainer.lambda$createChildren$12(ContextMenuContent.java:1338)
+	at com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247)
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.scene.Scene$MouseHandler.process(Scene.java:3856)
+	at javafx.scene.Scene.processMouseEvent(Scene.java:1851)
+	at javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2584)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:409)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:299)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:447)
+	at com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:412)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:446)
+	at com.sun.glass.ui.View.handleMouseEvent(View.java:556)
+	at com.sun.glass.ui.View.notifyMouse(View.java:942)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:174)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+1791 [JavaFX Application Thread] INFO  o.b.f.a.controllers.LoginController - LoginController initialized
+7571 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsController - PersonsController initialized
+15063 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsEditController - PersonsEditController initialized
+39092 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsEditController - PersonsEditController initialized
+1667 [JavaFX Application Thread] INFO  o.b.f.a.controllers.LoginController - LoginController initialized
+8241 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsController - PersonsController initialized
+14446 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsDetailViewController - PersonsDetailViewController initialized
+17661 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsEditController - PersonsEditController initialized
+169925 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsDetailViewController - PersonsDetailViewController initialized
+172198 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsEditController - PersonsEditController initialized
+401182 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsEditController - PersonsEditController initialized
+1744 [JavaFX Application Thread] INFO  o.b.f.a.controllers.LoginController - LoginController initialized
+9419 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsController - PersonsController initialized
+13240 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonCreateController - PersonCreateController initialized
+18254 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsEditController - PersonsEditController initialized
+2199 [JavaFX Application Thread] INFO  o.b.f.a.controllers.LoginController - LoginController initialized
+8365 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsController - PersonsController initialized
+14706 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsDetailViewController - PersonsDetailViewController initialized
+17318 [JavaFX Application Thread] ERROR o.b.f.a.controllers.LoginController - 
+file:/C:/Users/test/IdeaProjects/bds-airport-project/bds-airport-project/target/bds-airport-project-1.0.0.jar!/org/but/feec/airport/fxml/PersonEdit.fxml
+
+javafx.fxml.LoadException: 
+file:/C:/Users/test/IdeaProjects/bds-airport-project/bds-airport-project/target/bds-airport-project-1.0.0.jar!/org/but/feec/airport/fxml/PersonEdit.fxml
+
+	at javafx.fxml.FXMLLoader.constructLoadException(FXMLLoader.java:2707)
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2677)
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2548)
+	at javafx.fxml.FXMLLoader.load(FXMLLoader.java:2517)
+	at org.but.feec.airport.controllers.PersonsController.lambda$initializeTableViewSelection$0(PersonsController.java:98)
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49)
+	at javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.scene.control.MenuItem.fire(MenuItem.java:459)
+	at com.sun.javafx.scene.control.ContextMenuContent$MenuItemContainer.doSelect(ContextMenuContent.java:1385)
+	at com.sun.javafx.scene.control.ContextMenuContent$MenuItemContainer.lambda$createChildren$12(ContextMenuContent.java:1338)
+	at com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247)
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234)
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
+	at javafx.event.Event.fireEvent(Event.java:198)
+	at javafx.scene.Scene$MouseHandler.process(Scene.java:3856)
+	at javafx.scene.Scene.processMouseEvent(Scene.java:1851)
+	at javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2584)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:409)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:299)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:447)
+	at com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:412)
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:446)
+	at com.sun.glass.ui.View.handleMouseEvent(View.java:556)
+	at com.sun.glass.ui.View.notifyMouse(View.java:942)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:174)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.reflect.InvocationTargetException: null
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:76)
+	at jdk.internal.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:273)
+	at com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:83)
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2673)
+	... 44 common frames omitted
+Caused by: java.lang.ClassCastException: class org.but.feec.airport.api.PersonBasicView cannot be cast to class org.but.feec.airport.api.PersonDetailView (org.but.feec.airport.api.PersonBasicView and org.but.feec.airport.api.PersonDetailView are in unnamed module of loader 'app')
+	at org.but.feec.airport.controllers.PersonsEditController.loadPersonsData(PersonsEditController.java:99)
+	at org.but.feec.airport.controllers.PersonsEditController.initialize(PersonsEditController.java:84)
+	... 55 common frames omitted
+1731 [JavaFX Application Thread] INFO  o.b.f.a.controllers.LoginController - LoginController initialized
+9289 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsController - PersonsController initialized
+13363 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsEditController - PersonsEditController initialized
+36203 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsEditController - PersonsEditController initialized
+39108 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsEditController - PersonsEditController initialized
+1896 [JavaFX Application Thread] INFO  o.b.f.a.controllers.LoginController - LoginController initialized
+8399 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsController - PersonsController initialized
+14492 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsEditController - PersonsEditController initialized
+46356 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsDetailViewController - PersonsDetailViewController initialized
+49168 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsEditController - PersonsEditController initialized
+60220 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsEditController - PersonsEditController initialized
+70664 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsDetailViewController - PersonsDetailViewController initialized
+74934 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsEditController - PersonsEditController initialized
+89668 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsEditController - PersonsEditController initialized
+2056 [JavaFX Application Thread] INFO  o.b.f.a.controllers.LoginController - LoginController initialized
+8422 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsController - PersonsController initialized
+26598 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsEditController - PersonsEditController initialized
+46988 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsEditController - PersonsEditController initialized
+1476 [JavaFX Application Thread] INFO  o.b.f.a.controllers.LoginController - LoginController initialized
+7997 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsController - PersonsController initialized
+12211 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsEditController - PersonsEditController initialized
+33501 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsEditController - PersonsEditController initialized
+36357 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsDetailViewController - PersonsDetailViewController initialized
+39889 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsEditController - PersonsEditController initialized
+45206 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsEditController - PersonsEditController initialized
+48394 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsEditController - PersonsEditController initialized
 1149 [JavaFX Application Thread] INFO  o.b.f.a.controllers.LoginController - LoginController initialized
-1776 [JavaFX Application Thread] INFO  o.b.f.a.controllers.LoginController - LoginController initialized
-2055 [JavaFX Application Thread] INFO  o.b.f.a.controllers.LoginController - LoginController initialized
-1929 [JavaFX Application Thread] INFO  o.b.f.a.controllers.LoginController - LoginController initialized
-3043 [JavaFX Application Thread] INFO  o.b.f.a.controllers.LoginController - LoginController initialized
-1599 [JavaFX Application Thread] INFO  o.b.f.a.controllers.LoginController - LoginController initialized
-1934 [JavaFX Application Thread] INFO  o.b.f.a.controllers.LoginController - LoginController initialized
-1834 [JavaFX Application Thread] INFO  o.b.f.a.controllers.LoginController - LoginController initialized
-16917 [JavaFX Application Thread] ERROR o.b.f.a.config.DataSourceConfig - Could not connect to the database.
-com.zaxxer.hikari.pool.HikariPool$PoolInitializationException: Failed to initialize pool: FATAL: password authentication failed for user "postgres"
-	at com.zaxxer.hikari.pool.HikariPool.throwPoolInitializationException(HikariPool.java:596)
-	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:582)
-	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:100)
-	at com.zaxxer.hikari.HikariDataSource.<init>(HikariDataSource.java:81)
-	at org.but.feec.airport.config.DataSourceConfig.<clinit>(DataSourceConfig.java:33)
-	at org.but.feec.airport.data.PersonRepository.findPersonByUserName(PersonRepository.java:14)
-	at org.but.feec.airport.service.AuthService.findPersonByUserName(AuthService.java:17)
-	at org.but.feec.airport.service.AuthService.authenticate(AuthService.java:25)
-	at org.but.feec.airport.controllers.LoginController.handleSignIn(LoginController.java:100)
-	at org.but.feec.airport.controllers.LoginController.signInActionHandler(LoginController.java:93)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:76)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:273)
-	at com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:83)
-	at javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1857)
-	at javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1729)
-	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
-	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234)
-	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
-	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
-	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
-	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
-	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
-	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
-	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
-	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
-	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
-	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49)
-	at javafx.event.Event.fireEvent(Event.java:198)
-	at javafx.scene.Node.fireEvent(Node.java:8889)
-	at javafx.scene.control.Button.fire(Button.java:203)
-	at com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:208)
-	at com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274)
-	at com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247)
-	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
-	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234)
-	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
-	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
-	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
-	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
-	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
-	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
-	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
-	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
-	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
-	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
-	at javafx.event.Event.fireEvent(Event.java:198)
-	at javafx.scene.Scene$MouseHandler.process(Scene.java:3856)
-	at javafx.scene.Scene.processMouseEvent(Scene.java:1851)
-	at javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2584)
-	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:409)
-	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:299)
-	at java.base/java.security.AccessController.doPrivileged(Native Method)
-	at com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:447)
-	at com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:412)
-	at com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:446)
-	at com.sun.glass.ui.View.handleMouseEvent(View.java:556)
-	at com.sun.glass.ui.View.notifyMouse(View.java:942)
-	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
-	at com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:174)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-Caused by: org.postgresql.util.PSQLException: FATAL: password authentication failed for user "postgres"
-	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:613)
-	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:161)
-	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:213)
-	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
-	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:225)
-	at org.postgresql.Driver.makeConnection(Driver.java:465)
-	at org.postgresql.Driver.connect(Driver.java:264)
-	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
-	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:359)
-	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201)
-	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:470)
-	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
-	... 66 common frames omitted
-1879 [JavaFX Application Thread] INFO  o.b.f.a.controllers.LoginController - LoginController initialized
-1642 [JavaFX Application Thread] INFO  o.b.f.a.controllers.LoginController - LoginController initialized
-11076 [JavaFX Application Thread] ERROR o.b.f.a.controllers.LoginController - 
-file:/C:/Users/test/IdeaProjects/bds-airport-project/bds-airport-project/target/bds-airport-project-1.0.0.jar!/org/but/feec/airport/fxml/Persons.fxml
-
-javafx.fxml.LoadException: 
-file:/C:/Users/test/IdeaProjects/bds-airport-project/bds-airport-project/target/bds-airport-project-1.0.0.jar!/org/but/feec/airport/fxml/Persons.fxml
-
-	at javafx.fxml.FXMLLoader.constructLoadException(FXMLLoader.java:2707)
-	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2677)
-	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2548)
-	at javafx.fxml.FXMLLoader.load(FXMLLoader.java:2517)
-	at org.but.feec.airport.controllers.LoginController.showPersonsView(LoginController.java:115)
-	at org.but.feec.airport.controllers.LoginController.handleSignIn(LoginController.java:102)
-	at org.but.feec.airport.controllers.LoginController.signInActionHandler(LoginController.java:93)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:76)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:273)
-	at com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:83)
-	at javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1857)
-	at javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1729)
-	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
-	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234)
-	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
-	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
-	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
-	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
-	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
-	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
-	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
-	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
-	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
-	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49)
-	at javafx.event.Event.fireEvent(Event.java:198)
-	at javafx.scene.Node.fireEvent(Node.java:8889)
-	at javafx.scene.control.Button.fire(Button.java:203)
-	at com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:208)
-	at com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274)
-	at com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247)
-	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
-	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234)
-	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
-	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
-	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
-	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
-	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
-	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
-	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
-	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
-	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
-	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
-	at javafx.event.Event.fireEvent(Event.java:198)
-	at javafx.scene.Scene$MouseHandler.process(Scene.java:3856)
-	at javafx.scene.Scene.processMouseEvent(Scene.java:1851)
-	at javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2584)
-	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:409)
-	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:299)
-	at java.base/java.security.AccessController.doPrivileged(Native Method)
-	at com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:447)
-	at com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:412)
-	at com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:446)
-	at com.sun.glass.ui.View.handleMouseEvent(View.java:556)
-	at com.sun.glass.ui.View.notifyMouse(View.java:942)
-	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
-	at com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:174)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-Caused by: java.lang.reflect.InvocationTargetException: null
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:76)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:273)
-	at com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:83)
-	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2673)
-	... 63 common frames omitted
-Caused by: org.but.feec.airport.exceptions.DataAccessException: Persons basic view could not be loaded.
-	at org.but.feec.airport.data.PersonRepository.getPersonsBasicView(PersonRepository.java:69)
-	at org.but.feec.airport.service.PersonService.getPersonsBasicView(PersonService.java:28)
-	at org.but.feec.airport.controllers.PersonsController.initializePersonsData(PersonsController.java:143)
-	at org.but.feec.airport.controllers.PersonsController.initialize(PersonsController.java:71)
-	... 75 common frames omitted
-Caused by: org.postgresql.util.PSQLException: Sloupec pojmenovaný id_person nebyl nalezen v ResultSet.
-	at org.postgresql.jdbc.PgResultSet.findColumn(PgResultSet.java:2775)
-	at org.postgresql.jdbc.PgResultSet.getLong(PgResultSet.java:2658)
-	at com.zaxxer.hikari.pool.HikariProxyResultSet.getLong(HikariProxyResultSet.java)
-	at org.but.feec.airport.data.PersonRepository.mapToPersonBasicView(PersonRepository.java:159)
-	at org.but.feec.airport.data.PersonRepository.getPersonsBasicView(PersonRepository.java:65)
-	... 78 common frames omitted
-26006 [JavaFX Application Thread] ERROR o.b.f.a.controllers.LoginController - 
-file:/C:/Users/test/IdeaProjects/bds-airport-project/bds-airport-project/target/bds-airport-project-1.0.0.jar!/org/but/feec/airport/fxml/Persons.fxml
-
-javafx.fxml.LoadException: 
-file:/C:/Users/test/IdeaProjects/bds-airport-project/bds-airport-project/target/bds-airport-project-1.0.0.jar!/org/but/feec/airport/fxml/Persons.fxml
-
-	at javafx.fxml.FXMLLoader.constructLoadException(FXMLLoader.java:2707)
-	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2677)
-	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2548)
-	at javafx.fxml.FXMLLoader.load(FXMLLoader.java:2517)
-	at org.but.feec.airport.controllers.LoginController.showPersonsView(LoginController.java:115)
-	at org.but.feec.airport.controllers.LoginController.handleSignIn(LoginController.java:102)
-	at org.but.feec.airport.controllers.LoginController.signInActionHandler(LoginController.java:93)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:76)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:273)
-	at com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:83)
-	at javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1857)
-	at javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1729)
-	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
-	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234)
-	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
-	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
-	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
-	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
-	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
-	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
-	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
-	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
-	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
-	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49)
-	at javafx.event.Event.fireEvent(Event.java:198)
-	at javafx.scene.Node.fireEvent(Node.java:8889)
-	at javafx.scene.control.Button.fire(Button.java:203)
-	at com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:208)
-	at com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274)
-	at com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247)
-	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
-	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234)
-	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
-	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
-	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
-	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
-	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
-	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
-	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
-	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
-	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
-	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
-	at javafx.event.Event.fireEvent(Event.java:198)
-	at javafx.scene.Scene$MouseHandler.process(Scene.java:3856)
-	at javafx.scene.Scene.processMouseEvent(Scene.java:1851)
-	at javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2584)
-	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:409)
-	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:299)
-	at java.base/java.security.AccessController.doPrivileged(Native Method)
-	at com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:447)
-	at com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:412)
-	at com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:446)
-	at com.sun.glass.ui.View.handleMouseEvent(View.java:556)
-	at com.sun.glass.ui.View.notifyMouse(View.java:942)
-	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
-	at com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:174)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-Caused by: java.lang.reflect.InvocationTargetException: null
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:76)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:273)
-	at com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:83)
-	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2673)
-	... 63 common frames omitted
-Caused by: org.but.feec.airport.exceptions.DataAccessException: Persons basic view could not be loaded.
-	at org.but.feec.airport.data.PersonRepository.getPersonsBasicView(PersonRepository.java:69)
-	at org.but.feec.airport.service.PersonService.getPersonsBasicView(PersonService.java:28)
-	at org.but.feec.airport.controllers.PersonsController.initializePersonsData(PersonsController.java:143)
-	at org.but.feec.airport.controllers.PersonsController.initialize(PersonsController.java:71)
-	... 75 common frames omitted
-Caused by: org.postgresql.util.PSQLException: Sloupec pojmenovaný id_person nebyl nalezen v ResultSet.
-	at org.postgresql.jdbc.PgResultSet.findColumn(PgResultSet.java:2775)
-	at org.postgresql.jdbc.PgResultSet.getLong(PgResultSet.java:2658)
-	at com.zaxxer.hikari.pool.HikariProxyResultSet.getLong(HikariProxyResultSet.java)
-	at org.but.feec.airport.data.PersonRepository.mapToPersonBasicView(PersonRepository.java:159)
-	at org.but.feec.airport.data.PersonRepository.getPersonsBasicView(PersonRepository.java:65)
-	... 78 common frames omitted
-1935 [JavaFX Application Thread] INFO  o.b.f.a.controllers.LoginController - LoginController initialized
-43986 [JavaFX Application Thread] ERROR o.b.f.a.controllers.LoginController - 
-file:/C:/Users/test/IdeaProjects/bds-airport-project/bds-airport-project/target/bds-airport-project-1.0.0.jar!/org/but/feec/airport/fxml/Persons.fxml
-
-javafx.fxml.LoadException: 
-file:/C:/Users/test/IdeaProjects/bds-airport-project/bds-airport-project/target/bds-airport-project-1.0.0.jar!/org/but/feec/airport/fxml/Persons.fxml
-
-	at javafx.fxml.FXMLLoader.constructLoadException(FXMLLoader.java:2707)
-	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2677)
-	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2548)
-	at javafx.fxml.FXMLLoader.load(FXMLLoader.java:2517)
-	at org.but.feec.airport.controllers.LoginController.showPersonsView(LoginController.java:115)
-	at org.but.feec.airport.controllers.LoginController.handleSignIn(LoginController.java:102)
-	at org.but.feec.airport.controllers.LoginController.signInActionHandler(LoginController.java:93)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:76)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:273)
-	at com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:83)
-	at javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1857)
-	at javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1729)
-	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
-	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234)
-	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
-	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
-	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
-	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
-	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
-	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
-	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
-	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
-	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
-	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49)
-	at javafx.event.Event.fireEvent(Event.java:198)
-	at javafx.scene.Node.fireEvent(Node.java:8889)
-	at javafx.scene.control.Button.fire(Button.java:203)
-	at com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:208)
-	at com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274)
-	at com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247)
-	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
-	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234)
-	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
-	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
-	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
-	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
-	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
-	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
-	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
-	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
-	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
-	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
-	at javafx.event.Event.fireEvent(Event.java:198)
-	at javafx.scene.Scene$MouseHandler.process(Scene.java:3856)
-	at javafx.scene.Scene.processMouseEvent(Scene.java:1851)
-	at javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2584)
-	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:409)
-	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:299)
-	at java.base/java.security.AccessController.doPrivileged(Native Method)
-	at com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:447)
-	at com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:412)
-	at com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:446)
-	at com.sun.glass.ui.View.handleMouseEvent(View.java:556)
-	at com.sun.glass.ui.View.notifyMouse(View.java:942)
-	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
-	at com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:174)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-Caused by: java.lang.reflect.InvocationTargetException: null
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:76)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:273)
-	at com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:83)
-	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2673)
-	... 63 common frames omitted
-Caused by: org.but.feec.airport.exceptions.DataAccessException: Persons basic view could not be loaded.
-	at org.but.feec.airport.data.PersonRepository.getPersonsBasicView(PersonRepository.java:69)
-	at org.but.feec.airport.service.PersonService.getPersonsBasicView(PersonService.java:28)
-	at org.but.feec.airport.controllers.PersonsController.initializePersonsData(PersonsController.java:143)
-	at org.but.feec.airport.controllers.PersonsController.initialize(PersonsController.java:71)
-	... 75 common frames omitted
-Caused by: org.postgresql.util.PSQLException: Sloupec pojmenovaný username nebyl nalezen v ResultSet.
-	at org.postgresql.jdbc.PgResultSet.findColumn(PgResultSet.java:2775)
-	at org.postgresql.jdbc.PgResultSet.getString(PgResultSet.java:2632)
-	at com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java)
-	at org.but.feec.airport.data.PersonRepository.mapToPersonBasicView(PersonRepository.java:162)
-	at org.but.feec.airport.data.PersonRepository.getPersonsBasicView(PersonRepository.java:65)
-	... 78 common frames omitted
-303480 [JavaFX Application Thread] ERROR o.b.f.a.controllers.LoginController - 
-file:/C:/Users/test/IdeaProjects/bds-airport-project/bds-airport-project/target/bds-airport-project-1.0.0.jar!/org/but/feec/airport/fxml/Persons.fxml
-
-javafx.fxml.LoadException: 
-file:/C:/Users/test/IdeaProjects/bds-airport-project/bds-airport-project/target/bds-airport-project-1.0.0.jar!/org/but/feec/airport/fxml/Persons.fxml
-
-	at javafx.fxml.FXMLLoader.constructLoadException(FXMLLoader.java:2707)
-	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2677)
-	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2548)
-	at javafx.fxml.FXMLLoader.load(FXMLLoader.java:2517)
-	at org.but.feec.airport.controllers.LoginController.showPersonsView(LoginController.java:115)
-	at org.but.feec.airport.controllers.LoginController.handleSignIn(LoginController.java:102)
-	at org.but.feec.airport.controllers.LoginController.signInActionHandler(LoginController.java:93)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:76)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:273)
-	at com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:83)
-	at javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1857)
-	at javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1729)
-	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86)
-	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234)
-	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
-	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
-	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
-	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
-	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
-	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
-	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
-	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
-	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
-	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49)
-	at javafx.event.Event.fireEvent(Event.java:198)
-	at javafx.scene.Node.fireEvent(Node.java:8889)
-	at javafx.scene.control.Button.fire(Button.java:203)
-	at com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:208)
-	at com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274)
-	at com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247)
-	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80)
-	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234)
-	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191)
-	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59)
-	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58)
-	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
-	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
-	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
-	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56)
-	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114)
-	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74)
-	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54)
-	at javafx.event.Event.fireEvent(Event.java:198)
-	at javafx.scene.Scene$MouseHandler.process(Scene.java:3856)
-	at javafx.scene.Scene.processMouseEvent(Scene.java:1851)
-	at javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2584)
-	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:409)
-	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:299)
-	at java.base/java.security.AccessController.doPrivileged(Native Method)
-	at com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:447)
-	at com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:412)
-	at com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:446)
-	at com.sun.glass.ui.View.handleMouseEvent(View.java:556)
-	at com.sun.glass.ui.View.notifyMouse(View.java:942)
-	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
-	at com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:174)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-Caused by: java.lang.reflect.InvocationTargetException: null
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:76)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:273)
-	at com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:83)
-	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2673)
-	... 63 common frames omitted
-Caused by: org.but.feec.airport.exceptions.DataAccessException: Persons basic view could not be loaded.
-	at org.but.feec.airport.data.PersonRepository.getPersonsBasicView(PersonRepository.java:69)
-	at org.but.feec.airport.service.PersonService.getPersonsBasicView(PersonService.java:28)
-	at org.but.feec.airport.controllers.PersonsController.initializePersonsData(PersonsController.java:143)
-	at org.but.feec.airport.controllers.PersonsController.initialize(PersonsController.java:71)
-	... 75 common frames omitted
-Caused by: org.postgresql.util.PSQLException: Sloupec pojmenovaný username nebyl nalezen v ResultSet.
-	at org.postgresql.jdbc.PgResultSet.findColumn(PgResultSet.java:2775)
-	at org.postgresql.jdbc.PgResultSet.getString(PgResultSet.java:2632)
-	at com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java)
-	at org.but.feec.airport.data.PersonRepository.mapToPersonBasicView(PersonRepository.java:162)
-	at org.but.feec.airport.data.PersonRepository.getPersonsBasicView(PersonRepository.java:65)
-	... 78 common frames omitted
+8436 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsController - PersonsController initialized
+12646 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsEditController - PersonsEditController initialized
+1493 [JavaFX Application Thread] INFO  o.b.f.a.controllers.LoginController - LoginController initialized
+6908 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsController - PersonsController initialized
+12457 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsEditController - PersonsEditController initialized
+1424 [JavaFX Application Thread] INFO  o.b.f.a.controllers.LoginController - LoginController initialized
+7096 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsController - PersonsController initialized
+11396 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonCreateController - PersonCreateController initialized
+14189 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsEditController - PersonsEditController initialized
+2014 [JavaFX Application Thread] INFO  o.b.f.a.controllers.LoginController - LoginController initialized
+8403 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsController - PersonsController initialized
+11652 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsEditController - PersonsEditController initialized
+1041 [JavaFX Application Thread] INFO  o.b.f.a.controllers.LoginController - LoginController initialized
+7185 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsController - PersonsController initialized
+11400 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsEditController - PersonsEditController initialized
+931  [JavaFX Application Thread] INFO  o.b.f.a.controllers.LoginController - LoginController initialized
+7280 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsController - PersonsController initialized
+11703 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsEditController - PersonsEditController initialized
+1775 [JavaFX Application Thread] INFO  o.b.f.a.controllers.LoginController - LoginController initialized
+9672 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsController - PersonsController initialized
+17085 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonCreateController - PersonCreateController initialized
+20243 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsEditController - PersonsEditController initialized
+1830 [JavaFX Application Thread] INFO  o.b.f.a.controllers.LoginController - LoginController initialized
+11035 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsController - PersonsController initialized
+15450 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsEditController - PersonsEditController initialized
+1857 [JavaFX Application Thread] INFO  o.b.f.a.controllers.LoginController - LoginController initialized
+8602 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsController - PersonsController initialized
+13856 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsEditController - PersonsEditController initialized
+60516 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsEditController - PersonsEditController initialized
+78727 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsDetailViewController - PersonsDetailViewController initialized
+85304 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsEditController - PersonsEditController initialized
+101999 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsEditController - PersonsEditController initialized
+272394 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsEditController - PersonsEditController initialized
+290366 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsEditController - PersonsEditController initialized
+331161 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsEditController - PersonsEditController initialized
+743422 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonCreateController - PersonCreateController initialized
+749738 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsEditController - PersonsEditController initialized
+753114 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsEditController - PersonsEditController initialized
+766454 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsEditController - PersonsEditController initialized
+788580 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsEditController - PersonsEditController initialized
+1096819 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsEditController - PersonsEditController initialized
+1183142 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsEditController - PersonsEditController initialized
+1192220 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsEditController - PersonsEditController initialized
+1204708 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsEditController - PersonsEditController initialized
+1931 [JavaFX Application Thread] INFO  o.b.f.a.controllers.LoginController - LoginController initialized
+8025 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsController - PersonsController initialized
+19678 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsEditController - PersonsEditController initialized
+28640 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsEditController - PersonsEditController initialized
+51295 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsEditController - PersonsEditController initialized
+105637 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsEditController - PersonsEditController initialized
+1817 [JavaFX Application Thread] INFO  o.b.f.a.controllers.LoginController - LoginController initialized
+7536 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsController - PersonsController initialized
+14761 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsEditController - PersonsEditController initialized
+232649 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonCreateController - PersonCreateController initialized
+235479 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsEditController - PersonsEditController initialized
+1785 [JavaFX Application Thread] INFO  o.b.f.a.controllers.LoginController - LoginController initialized
+7751 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsController - PersonsController initialized
+17270 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsEditController - PersonsEditController initialized
+1704 [JavaFX Application Thread] INFO  o.b.f.a.controllers.LoginController - LoginController initialized
+7794 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsController - PersonsController initialized
+21590 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsEditController - PersonsEditController initialized
+42449 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsEditController - PersonsEditController initialized
+2120 [JavaFX Application Thread] INFO  o.b.f.a.controllers.LoginController - LoginController initialized
+8008 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsController - PersonsController initialized
+13591 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsEditController - PersonsEditController initialized
+24287 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsEditController - PersonsEditController initialized
+26632 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsDetailViewController - PersonsDetailViewController initialized
+30226 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsEditController - PersonsEditController initialized
+1648 [JavaFX Application Thread] INFO  o.b.f.a.controllers.LoginController - LoginController initialized
+9745 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsController - PersonsController initialized
+17160 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsEditController - PersonsEditController initialized
+28779 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsEditController - PersonsEditController initialized
+2020 [JavaFX Application Thread] INFO  o.b.f.a.controllers.LoginController - LoginController initialized
+8147 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsController - PersonsController initialized
+11950 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonCreateController - PersonCreateController initialized
+17101 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsEditController - PersonsEditController initialized
+26478 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsEditController - PersonsEditController initialized
+36732 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonCreateController - PersonCreateController initialized
+40778 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsEditController - PersonsEditController initialized
+79809 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsEditController - PersonsEditController initialized
+87137 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsDetailViewController - PersonsDetailViewController initialized
+92211 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsEditController - PersonsEditController initialized
+101441 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsDetailViewController - PersonsDetailViewController initialized
+1301 [JavaFX Application Thread] INFO  o.b.f.a.controllers.LoginController - LoginController initialized
+9813 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsController - PersonsController initialized
+20113 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsEditController - PersonsEditController initialized
+29423 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsEditController - PersonsEditController initialized
+40216 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsDetailViewController - PersonsDetailViewController initialized
+43637 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsEditController - PersonsEditController initialized
+61391 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsEditController - PersonsEditController initialized
+2009 [JavaFX Application Thread] INFO  o.b.f.a.controllers.LoginController - LoginController initialized
+11329 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsController - PersonsController initialized
+15864 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonCreateController - PersonCreateController initialized
+19799 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonCreateController - PersonCreateController initialized
+23339 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsEditController - PersonsEditController initialized
+1668 [JavaFX Application Thread] INFO  o.b.f.a.controllers.LoginController - LoginController initialized
+8017 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsController - PersonsController initialized
+15072 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsEditController - PersonsEditController initialized
+2001 [JavaFX Application Thread] INFO  o.b.f.a.controllers.LoginController - LoginController initialized
+8111 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsController - PersonsController initialized
+15582 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsEditController - PersonsEditController initialized
+45987 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsEditController - PersonsEditController initialized
+56214 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsEditController - PersonsEditController initialized
+68473 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsDetailViewController - PersonsDetailViewController initialized
