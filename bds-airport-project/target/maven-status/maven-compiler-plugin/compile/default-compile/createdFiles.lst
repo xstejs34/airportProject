@@ -5,7 +5,9 @@ org\but\feec\airport\controllers\LoginController$1.class
 org\but\feec\airport\data\PersonRepository.class
 org\but\feec\airport\controllers\PersonCreateController$1.class
 org\but\feec\airport\controllers\PersonsDetailViewController.class
+org\but\feec\airport\controllers\SQLInjectionController$1.class
 org\but\feec\airport\api\PersonDetailView.class
+org\but\feec\airport\controllers\SQLInjectionController.class
 org\but\feec\airport\controllers\LoginController.class
 org\but\feec\airport\exceptions\ExceptionHandler.class
 org\but\feec\airport\api\PersonAuthView.class
@@ -18,5 +20,6 @@ org\but\feec\airport\api\PersonEditView.class
 org\but\feec\airport\service\AuthService.class
 org\but\feec\airport\service\PersonService.class
 org\but\feec\airport\exceptions\DataAccessException.class
+org\but\feec\airport\api\SQLInjectionView.class
 org\but\feec\airport\controllers\PersonCreateController.class
 org\but\feec\airport\Main.class

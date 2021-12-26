@@ -23,7 +23,11 @@
       <menus>
         <Menu mnemonicParsing="false" text="File">
           <items>
-            <MenuItem mnemonicParsing="false" text="New" />
+            <Menu mnemonicParsing="false" text="New" >
+              <items>
+                <MenuItem mnemonicParsing="false" onAction="#handleNewInjectionTableButton" text="SQL Injection" />
+              </items>
+            </Menu>
             <MenuItem mnemonicParsing="false" text="Quit" />
           </items>
         </Menu>

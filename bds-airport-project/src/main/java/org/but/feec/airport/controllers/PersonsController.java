@@ -180,6 +180,22 @@ public class PersonsController {
         }
     }
 
+    public void handleNewInjectionTableButton(ActionEvent actionEvent) {
+        try {
+            FXMLLoader fxmlLoader = new FXMLLoader();
+            fxmlLoader.setLocation(App.class.getResource("fxml/SQLInjection.fxml"));
+            Scene scene = new Scene(fxmlLoader.load(), 600, 500);
+            Stage stage = new Stage();
+            stage.setTitle("BDS JavaFX SQL Injection");
+            stage.setScene(scene);
+
+            stage.show();
+        } catch (IOException ex) {
+            ExceptionHandler.handleException(ex);
+        }
+    }
+
+
     public void handleRefreshButton(ActionEvent actionEvent) {
         ObservableList<PersonBasicView> observablePersonsList = initializePersonsData();
         systemPersonsTableView.setItems(observablePersonsList);
