@@ -13,7 +13,6 @@ import java.sql.SQLException;
 import java.util.Properties;
 
 public class DataSourceConfig {
-    //logger pouzivat v kazde tride kde logujeme
     private static final Logger logger = LoggerFactory.getLogger(DataSourceConfig.class);
 
     private static HikariConfig config = new HikariConfig();
