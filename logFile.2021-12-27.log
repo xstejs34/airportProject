@@ -1,0 +1,15 @@
+2084 [JavaFX Application Thread] INFO  o.b.f.a.controllers.LoginController - LoginController initialized
+1837 [JavaFX Application Thread] INFO  o.b.f.a.controllers.LoginController - LoginController initialized
+2070 [JavaFX Application Thread] INFO  o.b.f.a.controllers.LoginController - LoginController initialized
+1523 [JavaFX Application Thread] INFO  o.b.f.a.controllers.LoginController - LoginController initialized
+324883 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsController - PersonsController initialized
+354340 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsEditController - PersonsEditController initialized
+373940 [JavaFX Application Thread] INFO  o.b.f.a.c.SQLInjectionController - SqlInjectionController initialized
+1851 [JavaFX Application Thread] INFO  o.b.f.a.controllers.LoginController - LoginController initialized
+16136 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsController - PersonsController initialized
+48583 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsEditController - PersonsEditController initialized
+59683 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsDetailViewController - PersonsDetailViewController initialized
+88503 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsDetailViewController - PersonsDetailViewController initialized
+138860 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonCreateController - PersonCreateController initialized
+189115 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonsEditController - PersonsEditController initialized
+208174 [JavaFX Application Thread] INFO  o.b.f.a.c.PersonCreateController - PersonCreateController initialized
